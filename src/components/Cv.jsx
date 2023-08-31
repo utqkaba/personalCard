@@ -1,0 +1,34 @@
+import PropTypes from 'prop-types';
+
+function Cv({ media }) {
+
+  const onButtonClick = () => {
+    // using Java Script method to get PDF file
+    fetch('UtkuKaba.pdf').then(response => {
+      response.blob().then(blob => {
+        // Creating new object of PDF file
+        const fileURL = window.URL.createObjectURL(blob);
+        // Setting various property values
+        let alink = document.createElement('a');
+        alink.href = fileURL;
+        alink.download = 'UtkuKaba.pdf';
+        alink.click();
+      })
+    })
+  }
+
+  return (
+    <div className='card-links'>
+      <div onClick={onButtonClick} className='card-item flex justify-between bg-slate-200 px-5 py-4 rounded-full mb-4 hover:bg-slate-400 hover:scale-105 duration-500 hover:blur-0 cursor-pointer drop-shadow-xl'>
+
+        <p className='name ml-1'>{media}</p>
+      </div>
+    </div>
+  )
+}
+
+Cv.propTypes = {
+  media: PropTypes.string.isRequired,
+}
+
+export default Cv
