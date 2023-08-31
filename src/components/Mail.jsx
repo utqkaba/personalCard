@@ -20,7 +20,7 @@ function Mail({ media, links }) {
   return (
     <div className='card-links'>
       <a href={links} target='_blank' rel="noreferrer" onClick={() => notifyCopyMail(mail)}>
-        <div className='card-item flex justify-between bg-slate-300 bg-opacity-70 px-5 py-4 rounded-full mb-4 hover:bg-opacity-100 hover:scale-105 duration-500 cursor-pointer drop-shadow-xl'>
+        <div className='card-item flex justify-between bg-slate-100 bg-opacity-75 px-5 py-4 rounded-full mb-4 hover:bg-opacity-100 hover:scale-105 duration-500 cursor-pointer drop-shadow-xl'>
           <p className='name ml-1'>{media}
             {/* <span className='blur-sm'>utqkaba@gmail.com</span> */}
           </p>

@@ -19,7 +19,7 @@ function Cv({ media }) {
 
   return (
     <div className='card-links'>
-      <div onClick={onButtonClick} className='card-item flex justify-between bg-slate-200 px-5 py-4 rounded-full mb-4 hover:bg-slate-400 hover:scale-105 duration-500 hover:blur-0 cursor-pointer drop-shadow-xl'>
+      <div onClick={onButtonClick} className='card-item flex justify-between bg-slate-100 bg-opacity-75 px-5 py-4 rounded-full mb-4 hover:bg-opacity-100 hover:scale-105 duration-500 hover:blur-0 cursor-pointer drop-shadow-xl'>
 
         <p className='name ml-1'>{media}</p>
       </div>
