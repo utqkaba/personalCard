@@ -14,15 +14,15 @@ function Mail({ media, links }) {
   }
 
   function copyMail() {
-    navigator.clipboard.writeText(mail);
+    navigator.clipboard.writeText("utqkaba@gmail.com");
   }
 
   return (
     <div className='card-links'>
       <a href={links} target='_blank' rel="noreferrer" onClick={() => notifyCopyMail(mail)}>
-        <div className='card-item flex justify-between bg-slate-100 bg-opacity-75 px-5 py-4 rounded-full mb-4 hover:bg-opacity-100 hover:scale-105 duration-500 cursor-pointer drop-shadow-xl'>
-          <p className='name ml-1'>{media}
-            <span>: utqkaba@gmail.com</span>
+        <div className='card-item flex justify-between bg-slate-100 bg-opacity-90 px-5 py-4 rounded-full mb-4 hover:bg-slate-50 hover:bg-opacity-100 hover:scale-105 duration-500 cursor-pointer drop-shadow-xl'>
+          <p className='name ml-1'>{media}:
+            <span className='italic'>  utqkaba@gmail.com</span>
           </p>
           <div className='icon mr-1'>
           </div>
