@@ -25,7 +25,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
         <Header />
         <div className='mt-4'>
-          <Info media="Github" links="https://github.com/utqkaba" icon="selam" />
+          <Info media="Github" links="https://github.com/utqkaba" icon="" />
           <Info media="Twitter" links="https://twitter.com/utqkaba" icon="" />
           <Info media="Instagram" links="https://www.instagram.com/utqkaba/" icon="" />
           <Mail media="E-Mail" icon="" />
