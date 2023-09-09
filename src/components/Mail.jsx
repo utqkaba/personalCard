@@ -10,7 +10,7 @@ function Mail({ media, links }) {
 
   function copyMail() {
     navigator.clipboard.writeText(userMail);
-    setIsCopy(true)
+    setIsCopy(!isCopy)
   }
 
   return (
