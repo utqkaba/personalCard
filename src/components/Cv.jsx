@@ -18,9 +18,9 @@ function Cv({ media }) {
   }
 
   return (
-    <div className='card-links'>
-      <div onClick={onButtonClick} className='card-item flex justify-between bg-slate-100 bg-opacity-90 px-5 py-4 rounded-full mb-4 hover:bg-slate-50 hover:bg-opacity-100 hover:scale-105 duration-500 hover:blur-0 cursor-pointer drop-shadow-xl'>
-        <p className='name ml-1'>{media}</p>
+    <div className='card-links mx-8'>
+      <div onClick={onButtonClick} className='card-item flex justify-center bg-slate-100 bg-opacity-90 px-5 py-4 rounded-full mb-4 hover:bg-slate-50 hover:bg-opacity-100 hover:scale-105 duration-500 hover:blur-0 cursor-pointer drop-shadow-xl'>
+        <p className='name ml-1 text-lg'>{media}</p>
       </div>
     </div>
   )
