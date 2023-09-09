@@ -9,14 +9,9 @@ import Mail from './components/Mail'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <div className='flex justify-center items-center h-screen scale-95'>
-      <div className='card backdrop-contrast-125 bg-slate-500 bg-opacity-30 p-10 rounded-2xl w-[30%]'>
-        {/* <div className=''>
-          <img
-            src={Image}
-            alt="profilePhoto"
-            className="rounded-full scale-50"
-          /></div> */}
+    <div className='flex justify-center items-center h-screen scale-95 font-libre tracking-wider'>
+      <div className='card backdrop-contrast-125 bg-slate-500 bg-opacity-30 p-10 rounded-2xl sm:w-[70%] md:w-[50%] lg:w-[42%] xl:w-[36%] 2xl:w-[30%]'>
+
         <img
           src={Image}
           alt="profilePhoto"
@@ -24,12 +19,14 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         />
 
         <Header />
+
         <div className='mt-4'>
           <Info media="Github" links="https://github.com/utqkaba" icon="" />
           <Info media="Twitter" links="https://twitter.com/utqkaba" icon="" />
           <Info media="Instagram" links="https://www.instagram.com/utqkaba/" icon="" />
           <Mail media="E-Mail" icon="" />
           <Cv media="Cv" />
+
         </div>
       </div>
     </div>
