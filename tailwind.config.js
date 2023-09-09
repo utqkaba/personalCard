@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        libre: ["Architects Daughter"],
+        libre: ["Montserrat Alternates"],
       },
     },
   },
