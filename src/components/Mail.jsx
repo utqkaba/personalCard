@@ -21,7 +21,7 @@ function Mail({ media, links }) {
     <div className='card-links mx-8'>
       <a href={links} target='_blank' rel="noreferrer" onClick={() => copyMail()}>
         <div className='card-item flex justify-center bg-slate-100 bg-opacity-90 px-5 py-4 rounded-full mb-4 hover:bg-slate-50 hover:bg-opacity-100 hover:scale-105 duration-500 cursor-pointer drop-shadow-xl'>
-          <p className='name ml-1 text-lg'>
+          <p className='name ml-1 text-lg scale-75 sm:scale-95 md:scale-95 lg:scale-95 xl:scale-95 2xl:scale-95'>
             {isCopy === true ? userMail : media}
           </p>
           <div className='icon mr-1'>
