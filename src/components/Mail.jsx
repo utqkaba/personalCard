@@ -1,16 +1,20 @@
-import PropTypes, { func } from 'prop-types';
+import PropTypes from 'prop-types';
 import { useState } from 'react';
 
 function Mail({ media, links }) {
 
-  // const [userMail, setUserMail] = useState("utqkaba@gmail.com");
   const userMail = "utqkaba@gmail.com"
   const [isCopy, setIsCopy] = useState(false)
 
-
-  function copyMail() {
-    navigator.clipboard.writeText(userMail);
-    setIsCopy(!isCopy)
+  async function copyMail() {
+    try {
+      await navigator.clipboard.writeText(userMail);
+      setIsCopy(true)
+      alert("Copied successfully! ✅ ")
+    } catch (e) {
+      setIsCopy(false)
+      alert("Failed to copy! ❌ ")
+    }
   }
 
   return (
