@@ -9,7 +9,7 @@ import Mail from './components/Mail'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <div className='flex justify-center items-center h-screen scale-95 font-libre tracking-wider'>
+    <div className='flex justify-center items-center h-screen scale-75 sm:scale-95 md:scale-95 lg:scale-95 xl:scale-95 2xl:scale-95 font-libre tracking-wider'>
       <div className='card backdrop-contrast-125 bg-slate-500 bg-opacity-30 p-10 rounded-2xl w-[90%] sm:w-[70%] md:w-[50%] lg:w-[42%] xl:w-[36%] 2xl:w-[30%]'>
 
         <img
