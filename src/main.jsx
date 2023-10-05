@@ -22,7 +22,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
         <div className='mt-4'>
           <Info media="Github" links="https://github.com/utqkaba" icon="" />
-          <Info media="Medium" links="https://medium.com/@utqkaba" icon="" />
+          <Info media="Medium" links="https://medium.com/@utkukaba" icon="" />
           <Info media="Twitter" links="https://twitter.com/utqkaba" icon="" />
           <Mail media="E-Mail" icon="" />
           <Cv media="Cv" />
