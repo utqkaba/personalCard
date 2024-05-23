@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import Header from './components/Header'
 import Info from './components/Info'
-import Image from './assets/newUtq.png'
+import Image from './assets/utkukaba.png'
 import Cv from './components/Cv'
 import Mail from './components/Mail'
 
