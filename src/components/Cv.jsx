@@ -11,7 +11,7 @@ function Cv({ media }) {
         // Setting various property values
         let alink = document.createElement('a');
         alink.href = fileURL;
-        alink.download = 'UtkuKaba.pdf';
+        alink.download = 'UtkuKaba_SoftwareEngineer.pdf';
         alink.click();
       })
     })
